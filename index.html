@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="mt-5 mb-4">Traffic Light Checker
+        </h1>
+        <form id="form">
+            <div class="mb-3">
+                <label for="light_color" class="form-label">Enter Traffic Light (Red, Yellow, or Green)</label>
+                <input type="text" class="form-control" id="light-color" aria-live="polite" placeholder="e.g., Red"
+                    required>
+            </div>
+            <button type="submit" onclick="lightCheck()" id="btn" class="btn btn-primary rounded-3">Check, if road is
+                clear</button>
+        </form>
+        <div class="result">
+            <p id="result" class="fs-4 text-dark mt-3 p-2 rounded-3 fw-bold">
+
+            </p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
