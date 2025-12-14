@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10vw 0px opx;
+    border: none;
+}
+
+
+.result {
+    justify-self: center;
+}
